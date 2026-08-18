@@ -1,36 +1,139 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Aetheria - Web Application
 
-## Getting Started
+A Modern, Responsive Web Application built with Next.js and React.
 
-First, run the development server:
+**Status:** Production Ready
+**Live Demo:** https://aetheria-orcin.vercel.app/
+**Stack:** Next.js · React · JavaScript · CSS · Vercel
+
+---
+
+## Quick Start
+
+```bash
+npm install
+npm run dev               # http://localhost:3000
+npm run build             # Production build
+npm start                 # Start production server
+```
+
+Open http://localhost:3000 after starting the development server.
+
+---
+
+## Project Overview
+
+Aetheria is a Modern Web Application designed with a focus on Clean UI, Responsive Layouts, and a Smooth User Experience across different screen sizes.
+
+The application is built using Next.js and React with a Component Based Structure and optimized font loading through `next/font`.
+
+---
+
+## Features
+
+* Responsive Design for Desktop, Tablet, and Mobile
+* Modern and Clean User Interface
+* Component Based Architecture
+* Optimized Font Loading with `next/font`
+* Fast Development and Production Builds
+* Responsive Layout and Scalable Structure
+* Production Deployment through Vercel
+
+---
+
+## Tech Stack
+
+| Technology   | Purpose                                   |
+| ------------ | ----------------------------------------- |
+| `Next.js`    | React Framework and Application Structure |
+| `React`      | Component Based UI Development            |
+| `JavaScript` | Application Logic                         |
+| `CSS`        | Styling and Responsive Design             |
+| `next/font`  | Font Optimization                         |
+| `Vercel`     | Deployment and Hosting                    |
+
+---
+
+## Project Structure
+
+```text
+Aetheria/
+├── app/
+│   ├── layout.js
+│   ├── page.js
+│   └── ...
+├── public/
+│   └── ...
+├── package.json
+├── next.config.js
+└── README.md
+```
+
+---
+
+## Development
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be available at:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Changes made to the source files are automatically reflected during development.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Production Build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Create an optimized production build:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run build
+```
 
-## Deploy on Vercel
+Start the production server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Deployment
+
+The application is deployed using Vercel.
+
+**Live Demo:**
+https://aetheria-orcin.vercel.app/
+
+---
+
+## Project Information
+
+| Item       | Details          |
+| ---------- | ---------------- |
+| Project    | Aetheria         |
+| Framework  | Next.js          |
+| Frontend   | React            |
+| Language   | JavaScript       |
+| Styling    | CSS              |
+| Deployment | Vercel           |
+| Status     | Production Ready |
+
+---
+
+## License
+
+This project is developed for Educational and Portfolio purposes.
