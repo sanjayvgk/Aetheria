@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --primary-gold: #C9A84C;
+  --primary-gold-hover: #b8973e;
+  --accent-green: #2C5F2E;
+  --accent-green-hover: #245026;
+  --whatsapp-green: #25D366;
+  --background-light: #FDFCF6;
+  --background-dark: #1A1A1A;
+  --text-primary: #111827;
+  --text-secondary: #4B5563;
+  --text-light: #FFFFFF;
+}
+
+@theme inline {
+  --color-primary-gold: var(--primary-gold);
+  --color-primary-gold-hover: var(--primary-gold-hover);
+  --color-accent-green: var(--accent-green);
+  --color-accent-green-hover: var(--accent-green-hover);
+  --color-whatsapp-green: var(--whatsapp-green);
+  --color-bg-light: var(--background-light);
+  --color-bg-dark: var(--background-dark);
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--background-light);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-primary {
+  @apply bg-primary-gold text-white px-6 py-3 rounded hover:bg-primary-gold-hover transition-colors duration-300 font-medium;
+}
+
+.btn-secondary {
+  @apply bg-accent-green text-white px-6 py-3 rounded hover:bg-accent-green-hover transition-colors duration-300 font-medium;
+}
+
+/* Hide native date picker icon and select arrow to use custom icons only */
+input::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  cursor: pointer;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
