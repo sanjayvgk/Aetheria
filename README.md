@@ -1,56 +1,116 @@
-# Aetheria - Web Application
+# Aetheria Hospitality - Luxury Service Apartments
 
-A Modern, Responsive Web Application built with Next.js and React.
+A modern, responsive hospitality website for **Aetheria Hospitality**, a premium service apartment and estate stay located in **Chikkamagaluru, Karnataka**.
+
+The website provides visitors with an immersive way to explore available rooms, amenities, gallery images, travel information, blogs, and booking options through a clean and responsive interface.
 
 **Status:** Production Ready
-**Live Demo:** https://aetheria-orcin.vercel.app/
-**Stack:** Next.js · React · JavaScript · CSS · Vercel
-
----
-
-## Quick Start
-
-```bash
-npm install
-npm run dev               # http://localhost:3000
-npm run build             # Production build
-npm start                 # Start production server
-```
-
-Open http://localhost:3000 after starting the development server.
+**Live Website:** https://aetheria-orcin.vercel.app/
+**Framework:** Next.js
+**Frontend:** React
+**Deployment:** Vercel
 
 ---
 
 ## Project Overview
 
-Aetheria is a Modern Web Application designed with a focus on Clean UI, Responsive Layouts, and a Smooth User Experience across different screen sizes.
+Aetheria Hospitality is designed to provide a premium digital experience for guests looking for comfortable service apartments in Chikkamagaluru.
 
-The application is built using Next.js and React with a Component Based Structure and optimized font loading through `next/font`.
+The website allows users to:
+
+* Explore available apartments
+* View room sizes, capacities, amenities, and pricing
+* Check availability
+* Explore property amenities
+* Browse the property gallery
+* Read travel and destination guides
+* View guest information and ratings
+* Contact the property
+* Access booking options
+
+The website presents Aetheria Hospitality as a luxury service apartment destination surrounded by the coffee estates and natural landscape of Chikkamagaluru.
 
 ---
 
-## Features
+## Key Features
 
-* Responsive Design for Desktop, Tablet, and Mobile
-* Modern and Clean User Interface
-* Component Based Architecture
-* Optimized Font Loading with `next/font`
-* Fast Development and Production Builds
-* Responsive Layout and Scalable Structure
-* Production Deployment through Vercel
+### Property Showcase
+
+* Luxury service apartment landing page
+* Property introduction and highlights
+* Premium visual presentation
+* Clear booking call-to-action sections
+* Responsive property information layout
+
+### Rooms And Apartments
+
+The website showcases multiple accommodation options:
+
+| Room           | Capacity |        Area | Starting Price |
+| -------------- | -------: | ----------: | -------------: |
+| 1BHK Penthouse | 2 Guests |   650 sq.ft |   ₹3,500/night |
+| 2BHK Standard  | 4 Guests | 1,100 sq.ft |   ₹4,500/night |
+| 2BHK Deluxe    | 6 Guests | 1,800 sq.ft |   ₹4,800/night |
+
+Each room provides information about capacity, area, amenities, description, and reservation options.
+
+### Amenities
+
+The property highlights several facilities designed for a comfortable stay:
+
+* High-Speed WiFi
+* Fully Equipped Kitchens
+* Air Conditioning
+* Television
+* Free Parking
+* Spacious Apartments
+* Premium Furnishings
+
+### Availability And Booking
+
+The website provides a booking interface where users can enter:
+
+* Check-In Date
+* Check-Out Date
+* Number Of Guests
+
+Users can then proceed to check availability and access the available booking options.
+
+### Gallery
+
+A dedicated gallery section allows visitors to explore the property, rooms, facilities, and surrounding environment through images.
+
+### Travel And Property Blogs
+
+The website includes informational content covering:
+
+* Family-Friendly Stays
+* Service Apartments Vs Hotels In Chikkamagaluru
+* Places To Visit In Chikkamagaluru
+* Local Travel Information
+* Property And Destination Guides
+
+### Responsive Design
+
+The application is designed to provide a consistent experience across:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile
 
 ---
 
 ## Tech Stack
 
-| Technology   | Purpose                                   |
-| ------------ | ----------------------------------------- |
-| `Next.js`    | React Framework and Application Structure |
-| `React`      | Component Based UI Development            |
-| `JavaScript` | Application Logic                         |
-| `CSS`        | Styling and Responsive Design             |
-| `next/font`  | Font Optimization                         |
-| `Vercel`     | Deployment and Hosting                    |
+| Technology   | Purpose                           |
+| ------------ | --------------------------------- |
+| `Next.js`    | Application Framework And Routing |
+| `React`      | Component-Based UI Development    |
+| `JavaScript` | Application Logic                 |
+| `CSS`        | Styling And Responsive Layouts    |
+| `next/font`  | Optimized Font Loading            |
+| `Vercel`     | Deployment And Hosting            |
 
 ---
 
@@ -62,16 +122,28 @@ Aetheria/
 │   ├── layout.js
 │   ├── page.js
 │   └── ...
+│
 ├── public/
+│   ├── images/
 │   └── ...
+│
 ├── package.json
 ├── next.config.js
 └── README.md
 ```
 
+The application follows a component-based Next.js structure, with the `app` directory handling the main application pages and layouts.
+
 ---
 
-## Development
+## Quick Start
+
+### Clone The Repository
+
+```bash
+git clone <repository-url>
+cd Aetheria
+```
 
 ### Install Dependencies
 
@@ -95,45 +167,73 @@ Changes made to the source files are automatically reflected during development.
 
 ---
 
-## Production Build
+## Available Scripts
 
-Create an optimized production build:
+### Development
+
+```bash
+npm run dev
+```
+
+Starts the Next.js development server.
+
+### Production Build
 
 ```bash
 npm run build
 ```
 
-Start the production server:
+Creates an optimized production build.
+
+### Production Server
 
 ```bash
 npm start
 ```
 
+Starts the application using the production build.
+
 ---
 
 ## Deployment
 
-The application is deployed using Vercel.
+The application is deployed using **Vercel**.
 
-**Live Demo:**
+### Live Website
+
 https://aetheria-orcin.vercel.app/
+
+The production website presents Aetheria Hospitality as a luxury service apartment destination in Chikkamagaluru, Karnataka, with room listings, amenities, booking functionality, blogs, gallery, and contact information.
 
 ---
 
 ## Project Information
 
-| Item       | Details          |
-| ---------- | ---------------- |
-| Project    | Aetheria         |
-| Framework  | Next.js          |
-| Frontend   | React            |
-| Language   | JavaScript       |
-| Styling    | CSS              |
-| Deployment | Vercel           |
-| Status     | Production Ready |
+| Item          | Details                            |
+| ------------- | ---------------------------------- |
+| Project       | Aetheria Hospitality               |
+| Location      | Chikkamagaluru, Karnataka          |
+| Property Type | Luxury Service Apartments          |
+| Website       | https://aetheria-orcin.vercel.app/ |
+| Framework     | Next.js                            |
+| Frontend      | React                              |
+| Language      | JavaScript                         |
+| Styling       | CSS                                |
+| Hosting       | Vercel                             |
+| Status        | Production Ready                   |
 
 ---
 
-## License
+## Project Highlights
 
-This project is developed for Educational and Portfolio purposes.
+* Modern Hospitality-Focused UI
+* Responsive Design Across Screen Sizes
+* Room And Apartment Showcase
+* Availability Interface
+* Booking-Focused User Experience
+* Property Amenities Section
+* Image Gallery
+* Travel And Destination Blogs
+* Contact And Location Information
+* Optimized Next.js Application Structure
+* Production Deployment Using Vercel
